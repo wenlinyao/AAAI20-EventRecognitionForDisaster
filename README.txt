@@ -1,3 +1,7 @@
+Welcome! This is the implementation of the paper "Weakly-supervised Fine-grained Event Recognition on Social Media Texts for Disaster Management" (AAAI 2020).
+The project is only for research purpose. If you think our work is useful to you, please also cite our paper. Thanks!
+
+
 ##############################################################################################################
 ############################################ Preprocessing ###################################################
 ##############################################################################################################
@@ -35,7 +39,7 @@ python ../model_slpa/extract_communities_chunks_categories.py
 
 output: for each category, generate the summary of each cluster (top words and terms of each cluster)
 
-#4 (human fee)
+#4 (human feedback)
 Read the summary files in "run_extract_communities_chunks_categories/" and then write all good cluster IDs into human_feedback.txt (have provided one example file). This file will be used as input for the next multi-channel LSTM classifier training.
 
 
