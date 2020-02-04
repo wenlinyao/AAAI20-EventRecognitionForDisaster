@@ -1,0 +1,19 @@
+# Impact
+## Preventative_measure
+### evacuate, evacuated, evacuating, evacuation, evacuee, shelter, shelters, refugee
+## Help_and_rescue
+### rescue, rescues, rescued, rescuing, boat, help, red-cross, redcross, donate, donation, guard
+## Casualty
+### die, dies, died, death, dead, drown, drowned, injured, injure, injury, hurt, hurted
+## Housing
+### house, houses, home, homes, room, rooms, apt, apartment
+## Utilities_and_Supplies
+### power, electricity, gas, store, stores, food, supply, supplies
+## Transportation
+### airplane, plane, flight, airport, highway, freeway, road, roadway, anenue, ave, dr, rd, st, hwy, fwy, blvd
+## Flood_control_infrastructures
+### reservoir, bayou, canal, dam, levee
+## Business_Work_School
+### office, school, closed, open, opening, work
+## Built-environment_hazards
+### fire, explosion, collapse, poison, electrocute, electrocuted, electrocution

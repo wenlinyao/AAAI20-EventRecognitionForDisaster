@@ -1,0 +1,15 @@
+sentence = 'We say of an apple that it is round and red.'
+sentence = 'In the late 1960s, Mao would again stand in the Tiananmen rostrum to launch the Cultural Revolution.'
+sentence = "In 1972, the People's Republic of China replaced the Republic of China (Taiwan) in the United Nations."
+sentence = "His quest for stability and prosperity took off in the early 1990s, propelled by his pragmatic policies to entice foreign investments and build China's private sector."
+infersent.visualize(sentence, tokenize = True)
+
+scp NLP_experiment/TweetsHarvey/SNLI_encoder/gpu_test.py wenlinyao@vipper.cse.tamu.edu:NLP_experiment/TweetsHarvey/SNLI_encoder/gpu_test.py
+scp NLP_experiment/TweetsHarvey/SNLI_encoder/SNLI_encoder_main.py wenlinyao@vipper.cse.tamu.edu:NLP_experiment/TweetsHarvey/SNLI_encoder/SNLI_encoder_main.py
+scp NLP_experiment/TweetsHarvey/utilities/utilities.py wenlinyao@vipper.cse.tamu.edu:NLP_experiment/TweetsHarvey/utilities/utilities.py
+scp -r NLP_experiment/TweetsHarvey/dic/ wenlinyao@vipper.cse.tamu.edu:NLP_experiment/TweetsHarvey/dic/
+
+scp wenlinyao@vipper.cse.tamu.edu:NLP_experiment/TweetsHarvey/run_SNLI_encoder/2017_08_28_tweetList.txt NLP_experiment/TweetsHarvey/run_SNLI_encoder/2017_08_28_tweetList_.txt
+
+scp wenlinyao@vipper.cse.tamu.edu:NLP_experiment/TweetsHarvey/run_SNLI_encoder3/2017_08_27_tweetList.txt wenlinyao@batman.cse.tamu.edu:TweetsHarvey/run_SNLI_encoder3/2017_08_27_tweetList.txt
+
