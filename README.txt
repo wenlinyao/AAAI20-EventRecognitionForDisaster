@@ -1,6 +1,8 @@
 Welcome! This is the implementation of the paper "Weakly-supervised Fine-grained Event Recognition on Social Media Texts for Disaster Management" (AAAI 2020).
 The project is only for research purpose. If you think our work is useful to you, please also cite our paper. Thanks!
-
+Packages requirement:
+tweet-preprocessor 0.5
+pytorch 0.4
 
 ##############################################################################################################
 ############################################ Preprocessing ###################################################
@@ -8,7 +10,7 @@ The project is only for research purpose. If you think our work is useful to you
 Please also download stanford-corenlp toolkit and Glove word embedding and put them into directory: "../../tools/stanford-corenlp-full-2017-06-09" and "../../tools/glove.6B/glove.6B.300d.txt"
 In this step, we will use pretrained SNLI sentence encoder to get important words for each tweet message.
 The pretrained sentence encoder (file "infersent.allnli.pickle") used here is from "https://github.com/facebookresearch/InferSent".
-Please download "infersent.allnli.pickle" and put it into SNLI_encoder/encoder/infersent.allnli.pickle
+Please download "infersent.allnli.pickle" and put it into SNLI_encoder/encoder/infersent.allnli.pickle (If you cannot find this pretrained model from the original author, you can also contact me to get it.)
 $ mkdir run_SNLI_encoder4/
 $ cd run_SNLI_encoder4/
 $ python ../SNLI_encoder/SNLI_encoder_main.py
